@@ -1,0 +1,92 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #313244;
+    color: #1e1e2e;
+    padding: 0 10px;
+}
+
+/* header */
+header {
+    background: #6c7086;
+    color: #cdd6f4;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 4px solid #fab387;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav a {
+    color: #313244;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav a:hover {
+    color: #fab387;
+    text-decoration: underline;
+}
+
+.site-title {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: #181825;
+}
+
+
+/* main section */
+main {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background: #9399b2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* links */
+a {
+    text-decoration: none;
+    color: #89b4fa;
+}
+
+a:hover {
+    color: #94e2d5;
+    text-decoration: underline;
+}
+
+/* buttons */
+button {
+    background-color: #89b4fa;
+    color: #cdd6f4;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #89b4fa;
+}
